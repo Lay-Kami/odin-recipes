@@ -1,0 +1,66 @@
+
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family: Share, cursive;
+    text-align: center;
+    font-size: 64px;
+}
+
+
+.intro {
+    font-size: 28px;
+}
+
+.emphasis {
+    font-style: normal;
+}
+
+.list-food {
+    list-style:none;
+    text-align: left;
+}
+
+.image-food {
+    border-radius: 5%;
+    width: 75px;
+    height: auto;
+}
+
+:hover.image-food {
+    border-radius: 0%;
+    width: 80px;
+    height: auto;
+}
+
+.line-style {}
+
+.footer-webref {
+    font-size: 10px
+}
+
+#Greetings {
+    font-family: Share, cursive;
+}
+
+.intro,
+#Greetings {
+    font-size: 28px;
+    text-align: center;
+    background-color: lightgray;
+    font-style: normal;
+}
+
+.text-link {
+    color: black;
+    text-decoration-line: none;
+}
+
+:hover.text-link {
+    color: black;
+    text-decoration-line: none;
+    font-size: 105%;
+}
