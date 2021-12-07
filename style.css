@@ -2,6 +2,11 @@
 
 * {
     font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+body {
+
 }
 
 h1 {
@@ -10,57 +15,60 @@ h1 {
     font-size: 64px;
 }
 
-
-.intro {
-    font-size: 28px;
-}
-
-.emphasis {
-    font-style: normal;
-}
-
-.list-food {
-    list-style:none;
-    text-align: left;
-}
-
-.image-food {
-    border-radius: 5%;
-    width: 75px;
-    height: auto;
-}
-
-:hover.image-food {
-    border-radius: 0%;
-    width: 80px;
-    height: auto;
-}
-
-.line-style {}
-
-.footer-webref {
-    font-size: 10px
-}
-
-#Greetings {
-    font-family: Share, cursive;
-}
-
-.intro,
-#Greetings {
-    font-size: 28px;
+div.header-top {
     text-align: center;
-    background-color: lightgray;
-    font-style: normal;
+    box-sizing: border-box;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 3em;
 }
 
-.text-link {
-    color: black;
-    text-decoration-line: none;
+p {
+    margin-top: 5em;
+    font-size: 1.5em;
+    text-align: center;
 }
 
-:hover.text-link {
-    color: black;
-    text-decoration-line: none;
-    font-size: 105%;
+li,
+img {
+    width: 30vmin;
 }
+
+li {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 2em;
+}
+
+li.list-box {
+    text-align: left;
+    padding: 1.5em;
+}
+
+img {
+    display: inline-block;
+    border-radius: 5%;
+}
+
+.image-food{
+    position:static;
+}
+
+:hover.image-food{
+    scale: 1.01;
+}
+
+.food-menu {
+    text-align: center;
+}
+
+.footer-notes {
+    font-size: 1em;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 0 15em;
+    margin-top: 10em;
+    border-top: black solid 2px;
+    padding-top: 2em;
+}
+
